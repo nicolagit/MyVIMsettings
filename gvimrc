@@ -12,6 +12,7 @@
 " colorscheme or running 'gvim -reverse'.
 " http://www.cs.cmu.edu/~maverick/VimColorSchemeTest/ has examples and
 " downloads for the colorschemes on vim.org
+colo ambient
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/gvimrc.local")
