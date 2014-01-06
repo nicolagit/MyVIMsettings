@@ -10,6 +10,9 @@
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
 
+" MODS FOR PATHOGEN.VIM
+execute pathogen#infect()
+
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
@@ -17,7 +20,7 @@ runtime! debian.vim
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
-"syntax on
+syntax on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -32,7 +35,7 @@ runtime! debian.vim
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
 "if has("autocmd")
-"  filetype plugin indent on
+filetype plugin indent on
 "endif
 
 " The following are commented out as they cause vim to behave a lot
