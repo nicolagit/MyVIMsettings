@@ -1,7 +1,14 @@
+This repository contains all my VIM's settings (including all plugins).
+
+To do after the GIT CLONE:
+
 .vimrc and .gvimrc are inside .vim/ folder: create a soft link to them in home folder with:
 
-	ln -s ~/.vim/vimrc ~/.vimrc
-	ln -s ~/.vim/gvimrc ~/.gvimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
 
+The plugins are inside bundle's folders. To recover them with:
+    git submodule init
+    git submodule update
 
-PS: Thanks to Mr. Drew Neil for the magic --> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+PS: Thanks to Mr. Drew Neil (and the other FOSS's contributors) for the magic --> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
