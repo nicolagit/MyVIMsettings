@@ -12,4 +12,8 @@ The plugins are inside bundle's folders. To recover them with:
     git submodule init
     git submodule update
 
+List of installed plugins:
+    vimwiki
+    nerdtree
+
 PS: Thanks to Mr. Drew Neil (and the other FOSS's contributors) for the magic --> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
