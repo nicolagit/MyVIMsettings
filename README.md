@@ -8,6 +8,7 @@ To do after the GIT CLONE:
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 The plugins are inside bundle's folders. To recover them with:
+
     git submodule init
     git submodule update
 
