@@ -60,7 +60,7 @@ endif
 "Show line number
 set number
 
-" VimWiki
+"VimWiki
 set nocompatible
 filetype plugin on
 syntax on
@@ -73,3 +73,7 @@ let wiki_2.path = '~/Nicola_ZIPPO/Business/2002\ -\ Sidel/Documents/VimWiki/VimW
 let wiki_2.path_html = '~/Nicola_ZIPPO/Business/2002\ -\ Sidel/UK/Planning/TaskJuggler/VimWikiHTML/'
 let wiki_2.template_path = '~/Nicola_ZIPPO/Backup/My\ Codes/VimWiki/VimWiki_templates/'
 let g:vimwiki_list = [wiki_1, wiki_2]
+
+"NERDtree
+map <F2> :NERDTreeToggle<CR>
+
