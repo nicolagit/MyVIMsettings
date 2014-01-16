@@ -77,3 +77,7 @@ let g:vimwiki_list = [wiki_1, wiki_2]
 "NERDtree
 map <F2> :NERDTreeToggle<CR>
 
+"Reducing temporary and backup files spreading around folders
+set backupdir=/tmp
+set directory=/tmp
+
