@@ -15,5 +15,6 @@ The plugins are inside bundle's folders. To recover them with:
 List of installed plugins:
     vimwiki
     nerdtree
+    VimOrganizer
 
 PS: Thanks to Mr. Drew Neil (and the other FOSS's contributors) for the magic --> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
