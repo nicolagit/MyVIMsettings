@@ -38,8 +38,8 @@ endif
 "  filetype plugin indent on
 "endif
 "Indentation
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=8
+set softtabstop=8
 
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
