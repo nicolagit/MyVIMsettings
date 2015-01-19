@@ -78,8 +78,8 @@ let g:vimwiki_list = [wiki_1, wiki_2]
 map <F2> :NERDTreeToggle<CR>
 
 "Reducing temporary and backup files spreading around folders
-set backupdir=/tmp
-set directory=/tmp
+set backupdir=~/.tmp
+set directory=~/.tmp
 
 "highlights text over the 80 column limit
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929

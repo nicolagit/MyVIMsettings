@@ -7,6 +7,10 @@ To do after the GIT CLONE:
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
+The temporary and swap files are created inside .tmp folder. This folder has to be created with:
+
+    mkdir ~/.tmp
+
 The plugins are inside bundle's folders. To recover them with:
 
     git submodule init
