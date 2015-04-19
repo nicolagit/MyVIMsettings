@@ -22,6 +22,10 @@ execute pathogen#infect()
 " line enables syntax highlighting by default.
 syntax on
 
+" Customized syntax files per extension
+filetype on
+au BufNewFile,BufRead *.ino set filetype=arduino
+
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 "set background=dark
