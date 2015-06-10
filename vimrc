@@ -69,14 +69,10 @@ set nocompatible
 filetype plugin on
 syntax on
 let wiki_1 = {}
-let wiki_1.path = '~/Nicola_ZIPPO_LenovoT430s/Backup/My\ Codes/VimWiki/VimWiki_Sources/'
-let wiki_1.path_html = '~/Nicola_ZIPPO_LenovoT430s/Backup/My\ Codes/VimWiki/HTML/'
-let wiki_1.template_path = '~/Nicola_ZIPPO_LenovoT430s/Backup/My\ Codes/VimWiki/VimWiki_templates/'
-let wiki_2 = {}
-let wiki_2.path = '~/Nicola_ZIPPO_LenovoT430s/Business/2014\ -\ Endoline/Documents/VimWiki/VimWiki_Sources/'
-let wiki_2.path_html = '~/Nicola_ZIPPO_LenovoT430s/Business/2014\ -\ Endoline/Documents/VimWiki/VimWiki_HTML/'
-let wiki_2.template_path = '~/Nicola_ZIPPO_LenovoT430s/Business/2014\ -\ Endoline/Documents/VimWiki/VimWiki_Templates/'
-let g:vimwiki_list = [wiki_1, wiki_2]
+let wiki_1.path = '~/Nicola_ZIPPO/Backup/My\ Codes/VimWiki/VimWiki_Sources/'
+let wiki_1.path_html = '~/Nicola_ZIPPO/Backup/My\ Codes/VimWiki/HTML/'
+let wiki_1.template_path = '~/Nicola_ZIPPO/Backup/My\ Codes/VimWiki/VimWiki_templates/'
+let g:vimwiki_list = [wiki_1]
 
 "NERDtree
 map <F2> :NERDTreeToggle<CR>
