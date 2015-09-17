@@ -24,6 +24,7 @@ syntax on
 
 " Customized syntax files per extension
 filetype on
+au BufNewFile,BufRead *.tjp,*.tji set filetype=tjp
 au BufNewFile,BufRead *.ino set filetype=arduino
 
 " If using a dark background within the editing area and syntax highlighting
