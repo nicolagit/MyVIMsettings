@@ -43,8 +43,9 @@ endif
 "  filetype plugin indent on
 "endif
 "Indentation
-set shiftwidth=8
-set softtabstop=8
+set expandtab           " Convert tabs into spaces
+set shiftwidth=8        " For indentation size
+set softtabstop=8       " For tabs' size
 
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
