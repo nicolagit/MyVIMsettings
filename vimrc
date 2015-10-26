@@ -87,3 +87,7 @@ set directory=~/.tmp
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
+"Select last pasted text with gb. Note: gv selects the last yanked text
+"Useful to change indentation after pasted some code (select with gb and
+"change with </>
+nnoremap <expr> gb '`[' . strpart(getregtype(), 0, 1) . '`]'
