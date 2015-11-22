@@ -63,8 +63,8 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-"Show line number
-set number
+"Show line number with relative number
+set relativenumber
 
 "VimWiki
 set nocompatible
@@ -91,3 +91,4 @@ match OverLength /\%81v.\+/
 "Useful to change indentation after pasted some code (select with gb and
 "change with </>
 nnoremap <expr> gb '`[' . strpart(getregtype(), 0, 1) . '`]'
+
