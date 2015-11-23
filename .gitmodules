@@ -7,3 +7,9 @@
 [submodule "bundle/VimOrganizer"]
 	path = bundle/VimOrganizer
 	url = https://github.com/vim-scripts/VimOrganizer.git
+[submodule "bundle/sleuth"]
+	path = bundle/sleuth
+	url = https://github.com/vim-scripts/sleuth.vim.git
+[submodule "bundle/vim-arduino-ino"]
+	path = bundle/vim-arduino-ino
+	url = https://github.com/jplaut/vim-arduino-ino.git
