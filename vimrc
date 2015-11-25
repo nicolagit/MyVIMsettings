@@ -65,6 +65,7 @@ endif
 
 "Show line number with relative number
 set relativenumber
+set number
 
 "VimWiki
 set nocompatible
