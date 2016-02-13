@@ -93,3 +93,9 @@ match OverLength /\%81v.\+/
 "change with </>
 nnoremap <expr> gb '`[' . strpart(getregtype(), 0, 1) . '`]'
 
+"vim-airline (powerline)
+"NOTE: install powerline fonts (e.g. https://github.com/powerline/fonts)
+set laststatus=2
+set guifont=Liberation\ Mono\ for\ Powerline\ 10
+let g:airline_powerline_fonts = 1
+let g:Powerline_symbols = 'fancy'
