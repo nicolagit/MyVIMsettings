@@ -28,3 +28,6 @@
 [submodule "bundle/sleuth.vim"]
 	path = bundle/sleuth.vim
 	url = https://github.com/vim-scripts/sleuth.vim.git
+[submodule "bundle/vim-autotag"]
+	path = bundle/vim-autotag
+	url = https://github.com/craigemery/vim-autotag.git
