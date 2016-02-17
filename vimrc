@@ -85,8 +85,10 @@ set backupdir=~/.tmp
 set directory=~/.tmp
 
 "highlights text over the 80 column limit
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"20160217 removed --> highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"20160217 removed --> match OverLength /\%81v.\+/
+"20160217 removed 2 lines above, now using set colorcolumn
+set colorcolumn=80
 
 "Select last pasted text with gb. Note: gv selects the last yanked text
 "Useful to change indentation after pasted some code (select with gb and
