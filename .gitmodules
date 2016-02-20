@@ -31,3 +31,6 @@
 [submodule "bundle/vim-autotag"]
 	path = bundle/vim-autotag
 	url = https://github.com/craigemery/vim-autotag.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
