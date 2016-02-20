@@ -17,6 +17,7 @@ The plugins are inside bundle's folders. To recover them with:
     git submodule update
 
 List of installed plugins:
+
     vimwiki
     nerdtree
     VimOrganizer
