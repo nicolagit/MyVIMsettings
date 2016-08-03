@@ -36,4 +36,4 @@
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/ctags.vim"]
 	path = bundle/ctags.vim
-	url = https@github.com:vim-scripts/ctags.vim.git
+	url = https://github.com/vim-scripts/ctags.vim.git
