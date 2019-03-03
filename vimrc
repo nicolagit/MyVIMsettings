@@ -93,6 +93,9 @@ set directory=~/.tmp
 highlight ColorColumn ctermbg=black
 set colorcolumn=80
 
+"Keep cursor centered vertically on the screen"
+set scrolloff=5
+
 "Select last pasted text with gb. Note: gv selects the last yanked text
 "Useful to change indentation after pasted some code (select with gb and
 "change with </>
