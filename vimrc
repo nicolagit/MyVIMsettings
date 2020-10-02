@@ -93,6 +93,14 @@ set directory=~/.tmp
 highlight ColorColumn ctermbg=black
 set colorcolumn=80
 
+"Enable folding
+set foldmethod=indent
+set foldlevel=99
+"Enable folding with the spacebar
+nnoremap <space> za
+"To see the docstrings for folded code
+let g:SimpylFold_docstring_preview=1
+
 "Keep cursor centered vertically on the screen"
 set scrolloff=5
 

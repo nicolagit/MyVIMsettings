@@ -30,5 +30,6 @@ List of installed plugins:
     vim-airline
     tagbar
     ctags
+    SimpylFold
 
 PS: Thanks to Mr. Drew Neil (and the other FOSS's contributors) for the magic --> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/

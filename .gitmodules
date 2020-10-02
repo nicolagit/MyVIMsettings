@@ -46,3 +46,6 @@
 [submodule "plantuml"]
 	path = plantuml
 	url = https://github.com/plantuml/plantuml.git
+[submodule "bundle/SimpylFold"]
+	path = bundle/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
